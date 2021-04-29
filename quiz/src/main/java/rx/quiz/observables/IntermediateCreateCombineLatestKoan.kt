@@ -23,7 +23,7 @@ abstract class IntermediateCreateCombineLatestKoan {
     /**
      * @see [IntermediateCreateCombineLatestKoan]
      */
-    abstract fun <T, D, I> combineLatest(first: Observable<T>, second: Observable<D>, combiner: BiFunction<T, D, I>): Observable<I>
+    abstract fun <T: Any, D: Any, I: Any> combineLatest(first: Observable<T>, second: Observable<D>, combiner: BiFunction<T, D, I>): Observable<I>
 
     @Test
     fun `Implement combineLatest and make it emit values the same way as real combineLatest does`() {
