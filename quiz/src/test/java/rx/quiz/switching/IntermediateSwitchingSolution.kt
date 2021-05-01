@@ -2,7 +2,7 @@ package rx.quiz.switching
 
 import io.reactivex.Observable
 
-class IntermediateSwitchingKoanImpl : IntermediateSwitchingKoan() {
+class IntermediateSwitchingSolution : IntermediateSwitchingKoan() {
     override fun monitorWeather(
         locationApi: LocationApi,
         weatherApi: WeatherApi

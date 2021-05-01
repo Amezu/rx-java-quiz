@@ -7,7 +7,7 @@ import io.reactivex.Scheduler
 import io.reactivex.functions.Function
 import java.util.concurrent.TimeUnit
 
-class ProCombineTimersKoanImpl : ProCombineTimersKoan() {
+class ProCombineTimersSolution : ProCombineTimersKoan() {
     override fun timeoutIfFirstElementDoesNotArriveIn(
         scheduler: Scheduler,
         delay: Long,

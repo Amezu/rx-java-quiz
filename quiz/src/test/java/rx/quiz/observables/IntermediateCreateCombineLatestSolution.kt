@@ -3,7 +3,7 @@ package rx.quiz.observables
 import io.reactivex.Observable
 import io.reactivex.functions.BiFunction
 
-class IntermediateCreateCombineLatestKoanImpl : IntermediateCreateCombineLatestKoan() {
+class IntermediateCreateCombineLatestSolution : IntermediateCreateCombineLatestKoan() {
     override fun <T : Any, D : Any, I : Any> combineLatest(
         first: Observable<T>,
         second: Observable<D>,

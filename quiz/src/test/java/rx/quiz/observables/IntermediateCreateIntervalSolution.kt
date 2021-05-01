@@ -5,7 +5,7 @@ import io.reactivex.ObservableEmitter
 import io.reactivex.Scheduler
 import java.util.concurrent.TimeUnit
 
-class IntermediateCreateIntervalKoanImpl : IntermediateCreateIntervalKoan() {
+class IntermediateCreateIntervalSolution : IntermediateCreateIntervalKoan() {
     override fun interval(scheduler: Scheduler, period: Long, unit: TimeUnit): Observable<Int> {
         return Observable.create<Int> { emitter ->
             scheduleCounterWithDelay(period, unit, scheduler, emitter, 0)

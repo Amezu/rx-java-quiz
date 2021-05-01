@@ -4,7 +4,7 @@ import io.reactivex.Observable
 import io.reactivex.Scheduler
 import java.util.concurrent.TimeUnit
 
-class ProTimerKoanImpl : ProTimerKoan() {
+class ProTimerSolution : ProTimerKoan() {
     override fun sayWordsOfTheSentenceWithPausesBetweenThem(
         scheduler: Scheduler,
         phrase: String,

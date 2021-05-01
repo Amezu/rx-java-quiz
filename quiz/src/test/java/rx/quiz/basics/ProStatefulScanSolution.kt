@@ -3,7 +3,7 @@ package rx.quiz.basics
 import io.reactivex.Observable
 import io.reactivex.ObservableTransformer
 
-class ProStatefulScanKoanImpl : ProStatefulScanKoan() {
+class ProStatefulScanSolution : ProStatefulScanKoan() {
     override fun createStringTokenizer(): ObservableTransformer<Char, Result> {
         return ObservableTransformer { upstream ->
             val sequence = mutableListOf<Char>()

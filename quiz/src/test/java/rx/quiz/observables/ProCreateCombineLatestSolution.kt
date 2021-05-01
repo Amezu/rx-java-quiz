@@ -5,7 +5,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.functions.BiFunction
 import io.reactivex.rxkotlin.addTo
 
-class ProCreateCombineLatestKoanImpl : ProCreateCombineLatestKoan() {
+class ProCreateCombineLatestSolution : ProCreateCombineLatestKoan() {
     override fun <T : Any, D : Any, I : Any> combineLatest(
         first: Observable<T>,
         second: Observable<D>,

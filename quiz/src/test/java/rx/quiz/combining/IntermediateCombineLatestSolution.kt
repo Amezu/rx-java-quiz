@@ -4,7 +4,7 @@ import io.reactivex.Observable
 import io.reactivex.functions.Function6
 import kotlin.math.min
 
-class IntermediateCombineLatestKoanImpl : IntermediateCombineLatestKoan() {
+class IntermediateCombineLatestSolution : IntermediateCombineLatestKoan() {
     override fun parkingAssistant(parkingApi: ParkingApi): Observable<Sound> {
         return Observable.combineLatest(
             parkingApi.isSwitchedOn(),
